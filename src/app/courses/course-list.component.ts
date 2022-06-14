@@ -17,42 +17,42 @@ export class CourseListComponent implements OnInit {
             {
                 id: 1,
                 name: 'Angular forms',
-                imageUrl: '',
+                imageUrl: './assets/images/forms.png',
                 price: 99.99,
                 code: 'XPS-8796',
                 duration: 120,
                 rating: 5.4,
-                releaseDate: '02/09/1999'
+                releaseDate: 'July, 04, 2022'
             },
             {
                 id: 2,
                 name: 'Angular HTTP',
-                imageUrl: '',
+                imageUrl: './assets/images/http.png',
                 price: 45.99,
                 code: 'XPS-8796',
                 duration: 80,
                 rating: 4,
-                releaseDate: '02/12/2000'
+                releaseDate: 'January, 21, 2018'
             },
             {
                 id: 3,
                 name: 'Angular The Voice',
-                imageUrl: '',
+                imageUrl: './assets/images/forms.png',
                 price: 30,
                 code: 'XPS-87565',
                 duration: 100,
                 rating: 3,
-                releaseDate: '02/12/2000'
+                releaseDate: 'October, 01, 2012'
             },
             {
                 id: 2,
                 name: 'Angular Notice',
-                imageUrl: '',
+                imageUrl: './assets/images/http.png',
                 price: 28,
                 code: 'XPS-8796',
                 duration: 88,
                 rating: 5.5,
-                releaseDate: '02/12/2000'
+                releaseDate: 'November, 05, 2023'
             }
         ]
     }
