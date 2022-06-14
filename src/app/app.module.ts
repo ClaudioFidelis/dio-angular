@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 import { CourseListComponent } from './courses/course-list.component';
 import { StarComponent } from './star/star.component';
 import { replacePipe }  from  './pipe/replace.pipe'
+import { NavBarComponent } from './nav-bar/nav-bar.component';
 
 @NgModule({
   declarations: [
@@ -15,6 +16,7 @@ import { replacePipe }  from  './pipe/replace.pipe'
     // importando novos componentes
     StarComponent,
     replacePipe,
+    NavBarComponent,
   ],
   imports: [
     BrowserModule,
