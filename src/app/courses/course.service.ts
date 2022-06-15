@@ -10,9 +10,14 @@ import { Course } from "./course";
 })
 export class CourseService{
 
-    retrieveAll(): Course[]{
+    retrieveAll(): Course[] {
         return COURSES;
     }
+
+    retrieveById(id: number): Course {
+        return COURSES.find((courseIterator: Course) => courseIterator.id === id)!;
+    }
+
 
 }
 
